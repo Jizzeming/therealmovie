@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="class/pencil.class.js"></script>
+	<script src="class/program.class.js"></script>
+	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+	<header>
+		<canvas id="canvas" height="350" width="350"></canvas>
+	</header>
+
+	<main>
+		<button class="pencil" data-size="1">Fin</button>
+		<button class="pencil" data-size="2">Moyen</button>
+		<button class="pencil" data-size="3">Epais</button>
+		<button class="button">Reinitialiser</button>
+		<button class="button" download="Mon-dessin-tout-pourris.png" id="save">Télécharger</button>
+
+	</main>
+
+</body>
+
+</html>
